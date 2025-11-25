@@ -29,3 +29,5 @@ Get the latest version from https://github.com/NodeByteHosting/module-dokploy-wh
 8. Enter your API Token under "Password" - Do not fill in username or Access Hash these are not used
 9. If you are using an URL with SSL make sure "Secure" is ticked. (This is recommended)
 10. Done, make your own Product and publish to your clients!
+
+This project is not in affiliation with Dokploy and the team
