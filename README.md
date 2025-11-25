@@ -7,7 +7,15 @@ WHMCS Module for [Dokploy](https://dokploy.com/)
 
 **This will only work on your own instance of Dokploy**
 
+This project is not in affiliation with Dokploy and the team
+
 # Installation
+
+### Pre-requisite
+
+- Your own install of Dokploy
+- WHMCS install (This module was tested on 8.13.1, but may work on earlier versions)
+- API Key from http://<your-vps-ip>/dashboard/settings/profile (Must be an admin)
 
 Get the latest version from https://github.com/NodeByteHosting/module-dokploy-whmcs/releases
 
