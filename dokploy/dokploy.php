@@ -72,7 +72,7 @@ function dokploy_CreateAccount(array $params)
         $dokployUser = $api->createUser([
             "email" => $params['clientsdetails']['email'],
             "organizationId" => $orgId,
-            "role" => "owner"
+            "role" => "admin"
         ]);
         logModuleCall('dokploy', 'CreateUser', $dokployUser, ['name'=> $orgName], $org);
     } catch (Exception $e) {
